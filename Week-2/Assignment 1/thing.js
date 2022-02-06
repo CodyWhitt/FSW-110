@@ -7,9 +7,7 @@ newP.textContent = 'All of this was created with JavaScript'
 document.body.appendChild(newP)
 
 var newList = document.createElement('ol')
-newList.setAttribute('id', 'newList')
 newList.textContent = 'Three Items'
-document.body.appendChild(newList)
 
 var one = document.createElement('li')
 one.textContent = '1'
@@ -23,3 +21,4 @@ var three = document.createElement('li')
 three.textContent = '3'
 newList.appendChild(three)
 
+document.body.appendChild(newList)
