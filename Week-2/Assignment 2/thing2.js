@@ -1,6 +1,5 @@
 //navBar
-var navBar = document.createElement('div')
-navBar.setAttribute('class', 'topnav')
+var navBar = document.createElement('nav')
 
 var link1 = document.createElement('a')
 link1.setAttribute('href', 'https://www.google.com/')
