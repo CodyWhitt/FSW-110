@@ -1,7 +1,25 @@
-//var header = document.createElement('h1')
-//header.textcontent = 'yo its a header thats like big n struff.'
-//document.body.appendChild(header)
+var newHeader = document.createElement('h1')
+newHeader.textContent = 'Welcome to my JS site'
+document.body.appendChild(newHeader)
 
 var newP = document.createElement('p')
-newP.textcontent = 'Add this paragraph to the body of the HTML file'
+newP.textContent = 'All of this was created with JavaScript'
 document.body.appendChild(newP)
+
+var newList = document.createElement('ol')
+newList.setAttribute('id', 'newList')
+newList.textContent = 'Three Items'
+document.body.appendChild(newList)
+
+var one = document.createElement('li')
+one.textContent = '1'
+newList.appendChild(one)
+
+var two = document.createElement('li')
+two.textContent = '2'
+newList.appendChild(two)
+
+var three = document.createElement('li')
+three.textContent = '3'
+newList.appendChild(three)
+
