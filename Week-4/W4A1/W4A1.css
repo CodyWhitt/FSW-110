@@ -1,0 +1,11 @@
+#rainbowsquare {
+    height: 300px;
+    width: 300px;
+    border: solid;
+}
+
+p {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
