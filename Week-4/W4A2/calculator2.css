@@ -1,0 +1,16 @@
+html {
+    background-color: cornflowerblue;
+}
+
+.box {
+    border: solid;
+    width: 100Px;
+    margin: 10px 5px 10px 5px;
+    background-color: orange;
+}
+
+body {
+    border-color: aquamarine;
+    border-style: solid;
+    max-width: fit-content;
+}
