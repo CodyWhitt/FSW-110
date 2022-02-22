@@ -1,0 +1,30 @@
+html {
+    background-color: grey;
+}
+
+#calculator {
+    background-color: blue;
+    border-style: solid;
+    width: 400px;
+    margin: 0%;
+}
+
+button {
+    border-style: outset;
+    background-color: lightgray;
+    margin: 1%;
+    padding: 6%;
+    font-size: 30px;
+}
+
+.textbox {
+    width: 28%;
+    margin: 01%;
+    height: 60px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#final {
+    width: 95%;
+}
