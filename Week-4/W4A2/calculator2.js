@@ -9,8 +9,8 @@ add.addEventListener('mousedown', function() {
     answer1.value = final
 })
 
-var add = document.getElementById('subtract')
-add.addEventListener('mousedown', function() {
+var subtract = document.getElementById('subtract')
+subtract.addEventListener('mousedown', function() {
     answer2 = document.getElementById('final')
     var txt3 = document.getElementById('num3')
     num1 = txt3.value
@@ -20,8 +20,8 @@ add.addEventListener('mousedown', function() {
     answer2.value = final
 })
 
-var add = document.getElementById('multiply')
-add.addEventListener('mousedown', function() {
+var multiply = document.getElementById('multiply')
+multiply.addEventListener('mousedown', function() {
     answer3 = document.getElementById('final')
     var txt5 = document.getElementById('num5')
     num1 = txt5.value
@@ -31,8 +31,8 @@ add.addEventListener('mousedown', function() {
     answer3.value = final
 })
 
-var add = document.getElementById('divide')
-add.addEventListener('mousedown', function() {
+var divide = document.getElementById('divide')
+divide.addEventListener('mousedown', function() {
     answer4 = document.getElementById('final')
     var txt7 = document.getElementById('num7')
     num1 = txt7.value
