@@ -6,6 +6,9 @@ var form = document.getElementById("submit-me")
 boxOne = document.getElementById("name")
 boxOne.setAttribute('name', 'user-name')
 boxOne.setAttribute('id', 'first-name')
+boxTwo = document.getElementById('age')
+output = document.createElement('input')
+form.appendChild(output)
 inputOne = document.createElement('input')
 inputOne.setAttribute('type', 'number')
 form.appendChild(inputOne)
@@ -24,7 +27,8 @@ form.appendChild(inputFive)
 inputSix = document.createElement('input')
 inputSix.setAttribute('type', 'checkbox')
 form.appendChild(inputSix)
-form.addEventListener('submit', function(e){
+button = document.getElementsByTagName('button')
+button[0].addEventListener('click', function(e){
     e.preventDefault()
-    document.getElementById('submit-me').innerHTML += "Submitted but page not refreshed, "
+    output.value = boxOne.value + boxTwo.value
 })
