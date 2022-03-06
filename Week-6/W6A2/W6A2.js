@@ -9,6 +9,7 @@ teaPrice = 2
 bagelPrice = 2
 
 button.addEventListener("click", function(e) {
+    e.preventDefault()
     num1 = (parseInt(coffee.value) * coffeePrice)
     num2 = (parseInt(tea.value) * teaPrice)
     num3 = (parseInt(bagel.value) * bagelPrice)
