@@ -10,8 +10,8 @@ submit.addEventListener("click", function(e) {
     e.preventDefault()
     final = document.createElement('li')
     deleteButton = document.createElement("button")
-    deleteButton.setAttribute("id", counter)
-    counter = (counter+1)
+    // deleteButton.setAttribute("id", counter)
+    // counter = (counter+1)
     final.innerHTML = task.value + ": " + description.value + " @ " + time.value + " "
     output.appendChild(final)
     final.appendChild(deleteButton)
